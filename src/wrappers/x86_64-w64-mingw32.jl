@@ -3,12 +3,12 @@ export libassuan
 
 using Libgpg_error_jll
 JLLWrappers.@generate_wrapper_header("Libassuan")
-JLLWrappers.@declare_library_product(libassuan, "libassuan-0.dll")
+JLLWrappers.@declare_library_product(libassuan, "libassuan6-0.dll")
 function __init__()
     JLLWrappers.@generate_init_header(Libgpg_error_jll)
     JLLWrappers.@init_library_product(
         libassuan,
-        "bin\\libassuan-0.dll",
+        "bin\\libassuan6-0.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

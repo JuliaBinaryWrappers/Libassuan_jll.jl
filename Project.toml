@@ -1,6 +1,6 @@
 name = "Libassuan_jll"
 uuid = "3c934f36-e25c-5265-85bb-28494e4832bb"
-version = "2.5.5+0"
+version = "2.5.5+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
