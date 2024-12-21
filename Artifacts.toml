@@ -1,115 +1,151 @@
 [[Libassuan]]
 arch = "aarch64"
-git-tree-sha1 = "2e19e1bf96d0f975be93e695c111ea5c0e4e06e9"
-libc = "glibc"
-os = "linux"
-
-    [[Libassuan.download]]
-    sha256 = "fa60f6d29f15be545e666f7d8fdc9bf79837d4aac09fe86a5fc2e4d0dfef61f5"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.aarch64-linux-gnu.tar.gz"
-[[Libassuan]]
-arch = "aarch64"
-git-tree-sha1 = "ab1f9fe322dce52d36d47af3a16735e3f8c6b557"
-libc = "musl"
-os = "linux"
-
-    [[Libassuan.download]]
-    sha256 = "6211e9b5958a62100de815bc7390fa1bd43a3ba076f10ac3fa9c9952f4706081"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.aarch64-linux-musl.tar.gz"
-[[Libassuan]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "18853bc090d40361810ba97824e93e806baf5c4f"
-libc = "glibc"
-os = "linux"
-
-    [[Libassuan.download]]
-    sha256 = "8c512c2b305e0550248baeb3b8c1f36a4f95112eb98d46ac6fe5ac1cde18a292"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.armv7l-linux-gnueabihf.tar.gz"
-[[Libassuan]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "c2e3af492e10a53f094a95ace23a65218677e6ff"
-libc = "musl"
-os = "linux"
-
-    [[Libassuan.download]]
-    sha256 = "5997be29b224ad36dfebc2b523accb34c72ed578c900f141d3201827a43f52c0"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.armv7l-linux-musleabihf.tar.gz"
-[[Libassuan]]
-arch = "i686"
-git-tree-sha1 = "06acafdd481a867e99b066bd595443e17e5397f3"
-libc = "glibc"
-os = "linux"
-
-    [[Libassuan.download]]
-    sha256 = "714a61ec464d3dbb78c03d84e44ccfc7f23941da76abf9cc70dfccb3a7d6a239"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.i686-linux-gnu.tar.gz"
-[[Libassuan]]
-arch = "i686"
-git-tree-sha1 = "dd1c99c3535840eb6639bb64337f5c71c690727f"
-libc = "musl"
-os = "linux"
-
-    [[Libassuan.download]]
-    sha256 = "6006e24b506f8e6163717879f4088bf756ca0946313c38f735d7b4f96cca0359"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.i686-linux-musl.tar.gz"
-[[Libassuan]]
-arch = "i686"
-git-tree-sha1 = "e6ea9aa0852137206d4c80c2140e49a641750a63"
-os = "windows"
-
-    [[Libassuan.download]]
-    sha256 = "8635e5b6d894024796613c6643d684365952847941cc7e147262fb8132306f3d"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.i686-w64-mingw32.tar.gz"
-[[Libassuan]]
-arch = "powerpc64le"
-git-tree-sha1 = "693a529a235bc54855c410b97c0c91830de6b4de"
-libc = "glibc"
-os = "linux"
-
-    [[Libassuan.download]]
-    sha256 = "a9474765b7d4951db025881158fb369a7bcb22fc2b1ed0e8a841dc867ca8ec44"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.powerpc64le-linux-gnu.tar.gz"
-[[Libassuan]]
-arch = "x86_64"
-git-tree-sha1 = "806d1c28588eb4e72fc4af932d32e3ab119c169d"
+git-tree-sha1 = "c6dd8440b3c9bddfc950fe1b5b2a2ab3b240312a"
 os = "macos"
 
     [[Libassuan.download]]
-    sha256 = "8f9457e24dda116e2f222dc7a5692a52ff12c60850e6b6e6c70c1660546bc511"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.x86_64-apple-darwin.tar.gz"
+    sha256 = "124cef893eaf28cb1f7f30cabc9372467e4e91e19dcb6b064a6b65a6e8bbafa4"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.aarch64-apple-darwin.tar.gz"
 [[Libassuan]]
-arch = "x86_64"
-git-tree-sha1 = "f7ae1360fa4db7105801d77252b3dc72f9b0dff3"
+arch = "aarch64"
+git-tree-sha1 = "7ca82e9cf4913907e5878c66e5b2e10b9bd3e604"
 libc = "glibc"
 os = "linux"
 
     [[Libassuan.download]]
-    sha256 = "94dc801e45394d6afb1ed2175cf6badee6de9dd89c699ffc331266560fa40b67"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.x86_64-linux-gnu.tar.gz"
+    sha256 = "cff3e068054f11c21839ea7fa5c18d5eab883e8ccfd013848b645686cbecefc3"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.aarch64-linux-gnu.tar.gz"
 [[Libassuan]]
-arch = "x86_64"
-git-tree-sha1 = "b445612791a2b43e69eb6e7595571fd72191707c"
+arch = "aarch64"
+git-tree-sha1 = "86d996225adfdccfe920759f32c893503f36e2b7"
 libc = "musl"
 os = "linux"
 
     [[Libassuan.download]]
-    sha256 = "6a51c98df6820c56dc74c56015685da6137b6198760753a30a1ee9146c84e7cf"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.x86_64-linux-musl.tar.gz"
+    sha256 = "b2d2f415992e2db82745bdb76cc1de36005b1e3d46e7d3bd6a6daea6ae9001b3"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.aarch64-linux-musl.tar.gz"
 [[Libassuan]]
-arch = "x86_64"
-git-tree-sha1 = "818579dcac6acb03cbf42b286ed955a048da28d1"
+arch = "aarch64"
+git-tree-sha1 = "406e6fbade2425d21a75549c7d9714e0bc248dcf"
 os = "freebsd"
 
     [[Libassuan.download]]
-    sha256 = "7c2fd29796886676c44f4c1152e311392077e4fcd5e5eaf11d7ecd8b68add16b"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "7e4d0587e8022be1285850cccfeef04f721ab909ccf4abed4946607a0108f07e"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.aarch64-unknown-freebsd.tar.gz"
 [[Libassuan]]
-arch = "x86_64"
-git-tree-sha1 = "1ebb5bf97e78617a46ffe93f2ed25c04dd9e2dac"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "940b902037d9f669465235c34b953424033e910e"
+libc = "glibc"
+os = "linux"
+
+    [[Libassuan.download]]
+    sha256 = "851250356103f94e16ac7dc531dba9c791e3c59faca3a5a3b6b950de33166823"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.armv6l-linux-gnueabihf.tar.gz"
+[[Libassuan]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e617e52b59079589a87c80da5f5fee309d07501b"
+libc = "musl"
+os = "linux"
+
+    [[Libassuan.download]]
+    sha256 = "5d7286ea2c69560b4624704e40d7e6239c5b16a774e4b8d888ba0d5e5781d63f"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.armv6l-linux-musleabihf.tar.gz"
+[[Libassuan]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "bfc86a7fa4fb779579af50ddc9b5e2a8da5e3260"
+libc = "glibc"
+os = "linux"
+
+    [[Libassuan.download]]
+    sha256 = "bea25d341b7c39ba2e0c987919171b4a93b1f2382295e4b48e59e1da4a89174d"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.armv7l-linux-gnueabihf.tar.gz"
+[[Libassuan]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "bf5602e9f5d31aaba2858050226b4e8b6ed478e0"
+libc = "musl"
+os = "linux"
+
+    [[Libassuan.download]]
+    sha256 = "d3111a142124524d2acf7f103ba8d6d3e888ef9489e682cef3065f91d6159f44"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.armv7l-linux-musleabihf.tar.gz"
+[[Libassuan]]
+arch = "i686"
+git-tree-sha1 = "2d059027b081d527ea8f0d5f81b2eb40b9f54ff1"
+libc = "glibc"
+os = "linux"
+
+    [[Libassuan.download]]
+    sha256 = "d06b0c7dea96b71c05d8a567fd361e00b8f4dfbc2ea9ecbc4e18d18023ae5f15"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.i686-linux-gnu.tar.gz"
+[[Libassuan]]
+arch = "i686"
+git-tree-sha1 = "582076b14a9791a8026d651df9f6e73f9b563867"
+libc = "musl"
+os = "linux"
+
+    [[Libassuan.download]]
+    sha256 = "ae153acfc7989790d7f813168590c151037db22f05aa9b5d21c2b9164d9b1e02"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.i686-linux-musl.tar.gz"
+[[Libassuan]]
+arch = "i686"
+git-tree-sha1 = "c383882d08a8a79127b98cfc57afba1e597ee7e4"
 os = "windows"
 
     [[Libassuan.download]]
-    sha256 = "922f92d027976e743b487b32b2e10113488037ee7a46284cff8abffb407e6d31"
-    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.5+1/Libassuan.v2.5.5.x86_64-w64-mingw32.tar.gz"
+    sha256 = "8bfff28a380ffaed4234e19d99d7b5a22e465d47fbfc50c6f73a193053d67159"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.i686-w64-mingw32.tar.gz"
+[[Libassuan]]
+arch = "powerpc64le"
+git-tree-sha1 = "88156c23e0b898ce64e5c0312194832337e2b6e3"
+libc = "glibc"
+os = "linux"
+
+    [[Libassuan.download]]
+    sha256 = "3b996248d9957ac47a93297e3898fe33a6096aef84a16b1280d44694b6a869c0"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.powerpc64le-linux-gnu.tar.gz"
+[[Libassuan]]
+arch = "x86_64"
+git-tree-sha1 = "e7ca2bf1a792832d522a6b05b9997f2472dd6936"
+os = "macos"
+
+    [[Libassuan.download]]
+    sha256 = "02b2a14ea26a6fc192748a0486516fd9a6550f970ef17741700d282509e110e8"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.x86_64-apple-darwin.tar.gz"
+[[Libassuan]]
+arch = "x86_64"
+git-tree-sha1 = "f0485fbb413eb547a183673458529766bd314791"
+libc = "glibc"
+os = "linux"
+
+    [[Libassuan.download]]
+    sha256 = "952b11b9f1eb3f6d4adc76f2e56646d062dfb9caf96f5336813f1d29c106eede"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.x86_64-linux-gnu.tar.gz"
+[[Libassuan]]
+arch = "x86_64"
+git-tree-sha1 = "06e5aa84460eb961e370d28e8ca5516294306d55"
+libc = "musl"
+os = "linux"
+
+    [[Libassuan.download]]
+    sha256 = "93f1e48e71c5d47801daaee5245200fc03ec2e3c2dc73b2e74e7e99e08fd4030"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.x86_64-linux-musl.tar.gz"
+[[Libassuan]]
+arch = "x86_64"
+git-tree-sha1 = "2ccc53a30ac0538881dc3016d4be4d0d0f1c7bc6"
+os = "freebsd"
+
+    [[Libassuan.download]]
+    sha256 = "64b40a57fbc59d656cc6c92b16fe69ff32702c832ce532c3990a50c0afbe6825"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.x86_64-unknown-freebsd.tar.gz"
+[[Libassuan]]
+arch = "x86_64"
+git-tree-sha1 = "7cf5bda0707ff1250c2e332e49cf970cad790b8b"
+os = "windows"
+
+    [[Libassuan.download]]
+    sha256 = "9900517387d6862766fcc849d15a7a3d3d0808006403673da9b448cfe24a9788"
+    url = "https://github.com/JuliaBinaryWrappers/Libassuan_jll.jl/releases/download/Libassuan-v2.5.7+0/Libassuan.v2.5.7.x86_64-w64-mingw32.tar.gz"
